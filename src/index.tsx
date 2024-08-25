@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import { Parent } from './components/UseCallbackSample'
+import { Parent } from './components/UseContextSample'
 
 ReactDOM.render(
-    <Parent />,
+  <React.StrictMode>
+    <Parent />
+  </React.StrictMode>,
   document.getElementById('root')
 )
