@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import { Parent } from './components/UseContextSample'
+import { Input } from './components/UseInput'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Parent />
+    <Input />
   </React.StrictMode>,
   document.getElementById('root')
 )
